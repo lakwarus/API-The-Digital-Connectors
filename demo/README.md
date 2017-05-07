@@ -25,6 +25,8 @@ https://docs.docker.com/compose/install/
 
 #### How to run
 
+Go inside to deployment directory and issue following commands
+
 ```docker login docker.wso2.com ```
 
 ```docker-compose up --build -d ```
