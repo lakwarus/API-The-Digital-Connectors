@@ -1,0 +1,48 @@
+version: '2'
+services:
+  apim_rdbms:
+    build:
+        context: ../
+        dockerfile: deployment/database/Dockerfile
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+  am-analytics:
+    build:
+      context: ../
+      dockerfile: deployment/am-analytics/Dockerfile
+    environment:
+      - SLEEP=50
+    ports:
+      - "9444:9444"
+      - "9764:9764"
+  api-manager:
+    build:
+      context: ../
+      dockerfile: deployment/api-manager/Dockerfile
+    environment:
+      - SLEEP=100
+    ports:
+      - "443:9443"
+      - "80:9763"
+      - "8280:8280"
+      - "8243:8243"
+  is-key-manager:
+    build:
+      context: ../
+      dockerfile: deployment/is-key-manager/Dockerfile
+    environment:
+      - SLEEP=150
+    ports:
+      - "9443:9443"
+  people-service:
+    build:
+      context: ../
+      dockerfile: deployment/people-service/Dockerfile
+    ports:
+      - "8080:8080"
+  tomcat:
+    build:
+      context: ../
+      dockerfile: deployment/tomcat/Dockerfile
+    ports:
+      - "9090:9090"
