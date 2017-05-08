@@ -40,9 +40,9 @@ services:
       dockerfile: deployment/people-service/Dockerfile
     ports:
       - "8080:8080"
-  tomcat:
-    build:
-      context: ../
-      dockerfile: deployment/tomcat/Dockerfile
-    ports:
-      - "9090:9090"
+#  tomcat:
+#    build:
+#      context: ../
+#      dockerfile: deployment/tomcat/Dockerfile
+#    ports:
+#      - "9090:9090"

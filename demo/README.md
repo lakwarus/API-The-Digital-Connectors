@@ -29,16 +29,17 @@ Go inside to deployment directory and issue following commands
 
 ```docker login docker.wso2.com ```
 
-```docker-compose up --build -d ```
+``` ./deploy.sh ```
+
 
 This will deploy the following,
 
 * Mysql server (container) with apimdb, userdb, regdb
-* APIM Container
-* APIM Analytics Container
-* WSO2 Identity Server as Keymanager
+* APIM container
+* APIM Analytics container
+* WSO2 Identity Server as Keymanager container
 * Tomcat with sample web apps
-* Sample micro service Container
+* Sample micro service container
 
 
 #### How to test

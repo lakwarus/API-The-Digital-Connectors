@@ -1,0 +1,298 @@
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.77
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 28 2017 16:01:48 UTC
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.77.0
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.12.4
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_60-b27
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/conf/logging.properties
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/endorsed
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/temp
+May 08, 2017 12:16:41 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/lakmal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 08, 2017 12:16:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:16:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:16:41 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 687 ms
+May 08, 2017 12:16:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 08, 2017 12:16:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.77
+May 08, 2017 12:16:42 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/playground2.war
+May 08, 2017 12:16:42 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/playground2/WEB-INF/lib/javax.servlet-3.0.0.v201112011016.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 08, 2017 12:16:44 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 08, 2017 12:16:44 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/playground2.war has finished in 2,666 ms
+May 08, 2017 12:16:44 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/travelocity.com.war
+May 08, 2017 12:16:44 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/travelocity.com/WEB-INF/lib/javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 08, 2017 12:16:45 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 08, 2017 12:16:45 PM org.wso2.carbon.identity.sso.agent.util.SSOAgentConfigs initConfig
+WARNING: 'SSOAgentPropertiesFilePath' not configured
+May 08, 2017 12:16:45 PM org.wso2.carbon.identity.sso.agent.util.SSOAgentConfigs initCheck
+INFO: 'SAML.AttributeConsumingServiceIndex' not configured. No attributes of the Subject will be requested
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/travelocity.com.war has finished in 2,322 ms
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/docs
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/docs has finished in 21 ms
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/examples
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/examples has finished in 162 ms
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/host-manager
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/host-manager has finished in 30 ms
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/manager
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/manager has finished in 26 ms
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/ROOT
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/apache-tomcat-7.0.77/webapps/ROOT has finished in 23 ms
+May 08, 2017 12:16:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:16:47 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:16:47 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5314 ms
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.77
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 28 2017 16:01:48 UTC
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.77.0
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.12.4
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_60-b27
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/conf/logging.properties
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/endorsed
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/temp
+May 08, 2017 12:30:45 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/lakmal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 08, 2017 12:30:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:30:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 874 ms
+May 08, 2017 12:30:45 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 08, 2017 12:30:45 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.77
+May 08, 2017 12:30:45 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/playground2.war
+May 08, 2017 12:30:45 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/playground2/WEB-INF/lib/javax.servlet-3.0.0.v201112011016.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 08, 2017 12:30:48 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 08, 2017 12:30:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/playground2.war has finished in 2,609 ms
+May 08, 2017 12:30:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/travelocity.com.war
+May 08, 2017 12:30:48 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/travelocity.com/WEB-INF/lib/javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 08, 2017 12:30:49 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 08, 2017 12:30:49 PM org.wso2.carbon.identity.sso.agent.util.SSOAgentConfigs initConfig
+WARNING: 'SSOAgentPropertiesFilePath' not configured
+May 08, 2017 12:30:49 PM org.wso2.carbon.identity.sso.agent.util.SSOAgentConfigs initCheck
+INFO: 'SAML.AttributeConsumingServiceIndex' not configured. No attributes of the Subject will be requested
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/travelocity.com.war has finished in 2,204 ms
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/docs
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/docs has finished in 26 ms
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/examples
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/examples has finished in 151 ms
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/host-manager
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/host-manager has finished in 24 ms
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/manager
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/manager has finished in 21 ms
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/ROOT
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/ROOT has finished in 16 ms
+May 08, 2017 12:30:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:30:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:30:50 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5113 ms
+May 08, 2017 12:32:59 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+May 08, 2017 12:32:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:32:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:32:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+May 08, 2017 12:32:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:32:59 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:32:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:32:59 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.77
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 28 2017 16:01:48 UTC
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.77.0
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.12.4
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_60-b27
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/conf/logging.properties
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/endorsed
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/temp
+May 08, 2017 12:33:31 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/lakmal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+May 08, 2017 12:33:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:33:31 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 439 ms
+May 08, 2017 12:33:31 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+May 08, 2017 12:33:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.77
+May 08, 2017 12:33:31 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/playground2.war
+May 08, 2017 12:33:31 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/playground2/WEB-INF/lib/javax.servlet-3.0.0.v201112011016.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 08, 2017 12:33:34 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 08, 2017 12:33:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/playground2.war has finished in 3,267 ms
+May 08, 2017 12:33:34 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/travelocity.com.war
+May 08, 2017 12:33:34 PM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(/Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/travelocity.com/WEB-INF/lib/javax.servlet-api-3.0.1.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+May 08, 2017 12:33:36 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+May 08, 2017 12:33:36 PM org.wso2.carbon.identity.sso.agent.util.SSOAgentConfigs initConfig
+WARNING: 'SSOAgentPropertiesFilePath' not configured
+May 08, 2017 12:33:36 PM org.wso2.carbon.identity.sso.agent.util.SSOAgentConfigs initCheck
+INFO: 'SAML.AttributeConsumingServiceIndex' not configured. No attributes of the Subject will be requested
+May 08, 2017 12:33:37 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/travelocity.com.war has finished in 2,877 ms
+May 08, 2017 12:33:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/docs
+May 08, 2017 12:33:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/docs has finished in 42 ms
+May 08, 2017 12:33:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/examples
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/examples has finished in 216 ms
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/host-manager
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/host-manager has finished in 34 ms
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/manager
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/manager has finished in 26 ms
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/ROOT
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/lakmal/Documents/work/workshop/API-The-Digital-Connectors/demo/deployment/playground-app/webapps/ROOT has finished in 18 ms
+May 08, 2017 12:33:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-9090"]
+May 08, 2017 12:33:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+May 08, 2017 12:33:38 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6535 ms
